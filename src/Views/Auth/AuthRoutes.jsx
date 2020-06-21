@@ -1,7 +1,8 @@
 import React from 'react'
 import { Route, Switch, Redirect } from "react-router-dom";
-import Login from '../Login';
-import Register from '../Register';
+import { Login } from './Login';
+import { Register } from './Register';
+
 export const AuthRoutes = () => {
     return (
         <Switch>

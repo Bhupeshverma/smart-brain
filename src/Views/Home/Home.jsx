@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Register() {
+export const Home = () => {
     return (
         <div>
-            Register
+            Home
         </div>
     )
 }
